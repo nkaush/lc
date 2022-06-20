@@ -9,3 +9,6 @@ cpp:
 
 c: 
 	gcc main.c && ./main
+
+clean:
+	rm -f main

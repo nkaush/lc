@@ -1,7 +1,7 @@
 main.%:
 	cp ../templates/$@ ./$@
 
-rust: 
+rust:
 	rustc main.rs && ./main
 
 python:

@@ -1,3 +1,6 @@
+main.%:
+	cp ../templates/$@ ./$@
+
 rust: 
 	rustc main.rs && ./main
 
@@ -9,6 +12,6 @@ cpp:
 
 c: 
 	gcc main.c && ./main
-	
+
 clean:
 	rm -f main

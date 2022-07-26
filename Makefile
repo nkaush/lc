@@ -8,10 +8,10 @@ python:
 	python3 main.py
 
 cpp: 
-	g++ main.cpp && ./main
+	clang++ -std=c++17 main.cpp -o main && ./main
 
 c: 
-	gcc main.c && ./main
+	gcc main.c -o main && ./main
 
 clean:
 	rm -f main
